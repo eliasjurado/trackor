@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Trackor.Features.Projects;
+using Thaniwasi.Client.Features.Projects;
 
-namespace Trackor.Features.Database.Repositories;
+namespace Thaniwasi.Client.Features.Database.Repositories;
 
 public class ProjectRepository(IDbContextFactory<TrackorContext> db)
 {

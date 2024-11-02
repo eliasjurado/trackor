@@ -1,7 +1,7 @@
 ﻿using Fluxor;
-using Trackor.Features.Database.Repositories;
+using Thaniwasi.Client.Features.Database.Repositories;
 
-namespace Trackor.Features.Theme;
+namespace Thaniwasi.Client.Features.Theme;
 
 public record ThemeToggleDarkModeAction();
 public record ThemeSetDarkModeAction(bool IsDarkMode);

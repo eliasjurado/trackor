@@ -1,4 +1,4 @@
-﻿namespace Trackor.Features.TaskList;
+﻿namespace Thaniwasi.Client.Features.TaskList;
 
 public class TaskListItem
 {

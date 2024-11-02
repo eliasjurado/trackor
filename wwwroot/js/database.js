@@ -1,5 +1,5 @@
 ﻿const cacheName = 'Bit-Besql';
-const trackorDbPath = '/data/cache/trackor.sqlite3';
+const trackorDbPath = '/data/cache/thaniwasi.sqlite3';
 
 export async function generateDownloadUrl() {
 

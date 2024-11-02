@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Trackor.Features.LinkLibrary;
+using Thaniwasi.Client.Features.LinkLibrary;
 
-namespace Trackor.Features.Database.Repositories;
+namespace Thaniwasi.Client.Features.Database.Repositories;
 
 public class LinkLibraryRepository(IDbContextFactory<TrackorContext> db)
 {

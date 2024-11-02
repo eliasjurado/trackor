@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Trackor.Features.Database
+namespace Thaniwasi.Client.Features.Database
 {
     public class TrackorDbMigrator(IDbContextFactory<TrackorContext> dbContextFactory)
     {

@@ -1,9 +1,9 @@
 ﻿using Fluxor;
-using Trackor.Features.ActivityLog;
-using Trackor.Features.Database;
-using Trackor.Features.Database.Repositories;
+using Thaniwasi.Client.Features.ActivityLog;
+using Thaniwasi.Client.Features.Database;
+using Thaniwasi.Client.Features.Database.Repositories;
 
-namespace Trackor.Features.Categories;
+namespace Thaniwasi.Client.Features.Categories;
 
 public record CategoriesLoadAction();
 public record CategoriesEditCategoryAction(Category Category, bool CopyOnly);

@@ -1,9 +1,9 @@
 ﻿using Fluxor;
-using Trackor.Features.ActivityLog;
-using Trackor.Features.Database;
-using Trackor.Features.Database.Repositories;
+using Thaniwasi.Client.Features.ActivityLog;
+using Thaniwasi.Client.Features.Database;
+using Thaniwasi.Client.Features.Database.Repositories;
 
-namespace Trackor.Features.Projects;
+namespace Thaniwasi.Client.Features.Projects;
 
 public record ProjectsLoadAction();
 public record ProjectsEditProjectAction(Project Project, bool CopyOnly);

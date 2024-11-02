@@ -1,8 +1,8 @@
 ﻿using Fluxor;
-using Trackor.Features.Database;
-using Trackor.Features.Database.Repositories;
+using Thaniwasi.Client.Features.Database;
+using Thaniwasi.Client.Features.Database.Repositories;
 
-namespace Trackor.Features.ActivityLog;
+namespace Thaniwasi.Client.Features.ActivityLog;
 
 public record ActivityLogLoadItemsAction();
 public record ActivityLogSetLogItemsAction(ActivityLogItem[] Items);

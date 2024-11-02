@@ -1,7 +1,7 @@
 ﻿using Fluxor;
-using Trackor.Features.Database.Repositories;
+using Thaniwasi.Client.Features.Database.Repositories;
 
-namespace Trackor.Features.TaskList;
+namespace Thaniwasi.Client.Features.TaskList;
 
 public record TaskListLoadAction();
 public record TaskListSetAction(TaskListItem[] Tasks);

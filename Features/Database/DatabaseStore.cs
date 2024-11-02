@@ -1,9 +1,9 @@
 ﻿using Fluxor;
 using Microsoft.JSInterop;
-using Trackor.Features.Database.Repositories;
-using Trackor.Features.Theme;
+using Thaniwasi.Client.Features.Database.Repositories;
+using Thaniwasi.Client.Features.Theme;
 
-namespace Trackor.Features.Database;
+namespace Thaniwasi.Client.Features.Database;
 
 public record DatabaseSetUpDbAction();
 public record DatabaseSetDbCacheModuleAction(IJSObjectReference DbCacheModule);

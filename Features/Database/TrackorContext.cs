@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Trackor.Features.ActivityLog;
-using Trackor.Features.Categories;
-using Trackor.Features.LinkLibrary;
-using Trackor.Features.Projects;
-using Trackor.Features.SnippetLibrary;
-using Trackor.Features.TaskList;
+using Thaniwasi.Client.Features.ActivityLog;
+using Thaniwasi.Client.Features.Categories;
+using Thaniwasi.Client.Features.LinkLibrary;
+using Thaniwasi.Client.Features.Projects;
+using Thaniwasi.Client.Features.SnippetLibrary;
+using Thaniwasi.Client.Features.TaskList;
 
-namespace Trackor.Features.Database
+namespace Thaniwasi.Client.Features.Database
 {
     public class TrackorContext(DbContextOptions<TrackorContext> options) : DbContext(options)
     {

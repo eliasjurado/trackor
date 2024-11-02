@@ -1,4 +1,4 @@
-﻿namespace Trackor.Features.LinkLibrary;
+﻿namespace Thaniwasi.Client.Features.LinkLibrary;
 
 public class LinkLibraryItem
 {

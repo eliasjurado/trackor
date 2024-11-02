@@ -1,6 +1,6 @@
-﻿using Trackor.Features.Database.Repositories;
+﻿using Thaniwasi.Client.Features.Database.Repositories;
 
-namespace Trackor.Features.Database;
+namespace Thaniwasi.Client.Features.Database;
 
 public static class DatabaseServiceExtensions
 {

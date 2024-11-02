@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Trackor.Features.TaskList;
+using Thaniwasi.Client.Features.TaskList;
 
-namespace Trackor.Features.Database.Repositories;
+namespace Thaniwasi.Client.Features.Database.Repositories;
 
 public class TaskListRepository(IDbContextFactory<TrackorContext> db)
 {

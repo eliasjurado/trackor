@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Trackor.Features.Categories;
+using Thaniwasi.Client.Features.Categories;
 
-namespace Trackor.Features.Database.Repositories;
+namespace Thaniwasi.Client.Features.Database.Repositories;
 
 public class CategoryRepository(IDbContextFactory<TrackorContext> db)
 {

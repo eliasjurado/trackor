@@ -1,4 +1,4 @@
-﻿namespace Trackor.Features.Weather;
+﻿namespace Thaniwasi.Client.Features.Weather;
 
 public record WeatherConditions
 {

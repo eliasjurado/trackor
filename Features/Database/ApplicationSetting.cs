@@ -1,4 +1,4 @@
-﻿namespace Trackor.Features.Database;
+﻿namespace Thaniwasi.Client.Features.Database;
 
 public record ApplicationSetting
 {

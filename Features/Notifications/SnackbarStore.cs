@@ -1,7 +1,7 @@
 ﻿using Fluxor;
 using MudBlazor;
 
-namespace Trackor.Features.Notifications;
+namespace Thaniwasi.Client.Features.Notifications;
 
 public record SnackbarShowInfoAction(string Content, Action ClickAction = null);
 public record SnackbarShowSuccessAction(string Content, Action ClickAction = null);

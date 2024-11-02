@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Trackor.Features.Weather;
+namespace Thaniwasi.Client.Features.Weather;
 /// <summary>
 /// Weather conditions as returned from the Current Weather 
 /// Data API at OpenWeatherMap.org. More details at 

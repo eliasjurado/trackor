@@ -1,4 +1,4 @@
-﻿namespace Trackor.Features.ActivityLog;
+﻿namespace Thaniwasi.Client.Features.ActivityLog;
 
 public class ActivityLogItem
 {

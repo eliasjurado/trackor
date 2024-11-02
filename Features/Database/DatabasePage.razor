@@ -1,7 +1,7 @@
 ﻿@page "/database"
 @inherits FluxorComponent
 
-@using Trackor.Features.Database.Components
+@using Thaniwasi.Client.Features.Database.Components
 
 @inject NavigationManager NavigationManager
 @inject IState<DatabaseState> DatabaseState
@@ -42,7 +42,7 @@
         <MudCard Elevation="6">
             <MudCardContent Style="min-height: 130px;">
                 <MudText Typo="Typo.h5">Restore a database</MudText>
-                <MudText Typo="Typo.body2">Upload a previously saved Trackor database file into the application cache.</MudText>
+                <MudText Typo="Typo.body2">Upload a previously saved Thaniwasi.Client database file into the application cache.</MudText>
             </MudCardContent>
             <MudCardActions>
                 <MudButton Color="Color.Primary" Variant="Variant.Filled" HtmlTag="label" for="dbInputFile" StartIcon="@Icons.Material.Filled.CloudUpload">Restore from Backup</MudButton>

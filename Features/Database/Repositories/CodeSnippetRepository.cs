@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Trackor.Features.SnippetLibrary;
+using Thaniwasi.Client.Features.SnippetLibrary;
 
-namespace Trackor.Features.Database.Repositories;
+namespace Thaniwasi.Client.Features.Database.Repositories;
 
 public class CodeSnippetRepository(IDbContextFactory<TrackorContext> db)
 {

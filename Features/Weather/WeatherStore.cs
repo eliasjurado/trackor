@@ -1,9 +1,9 @@
 ﻿using Fluxor;
 using System.Net.Http.Json;
-using Trackor.Features.Database.Repositories;
-using Trackor.Features.Notifications;
+using Thaniwasi.Client.Features.Database.Repositories;
+using Thaniwasi.Client.Features.Notifications;
 
-namespace Trackor.Features.Weather;
+namespace Thaniwasi.Client.Features.Weather;
 
 public record WeatherLoadConfigAction();
 public record WeatherSaveConfigAction(string PostalCode, string CountryCode, string Units, string ApiKey);

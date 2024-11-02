@@ -1,9 +1,9 @@
-﻿@using Trackor.Features.Theme
+﻿@using Thaniwasi.Client.Features.Theme
 @inherits FluxorLayout
 
-@using Trackor.Features.Database
-@using Trackor.Features.Pomodoro.Components
-@using Trackor.Features.Weather.Components
+@using Thaniwasi.Client.Features.Database
+@using Thaniwasi.Client.Features.Pomodoro.Components
+@using Thaniwasi.Client.Features.Weather.Components
 
 @inject IState<ThemeState> ThemeState
 @inject NavigationManager NavigationManager
@@ -20,7 +20,7 @@
         <div class="splash-container">
             <img class="splash-image" src="loading-water.gif" />
             <p class="splash-message">
-                <strong>Trackor</strong> theme is loading ...
+                <strong>Thaniwasi.Client</strong> theme is loading ...
             </p>
         </div>
     </div>
@@ -30,13 +30,13 @@ else
     <MudLayout>
         <MudAppBar Elevation="1">
             <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => drawerOpen = !drawerOpen)" />
-            <MudText Typo="Typo.h6"><MudButton Variant="Variant.Text" OnClick="NavigateHome" Color="Color.Inherit">Trackor</MudButton></MudText>
+            <MudText Typo="Typo.h6"><MudButton Variant="Variant.Text" OnClick="NavigateHome" Color="Color.Inherit">Thaniwasi.Client</MudButton></MudText>
             <MudSpacer />
             <PomodoroWidget />
             <MudSpacer />
             <WeatherWidget />
             <MudIconButton Icon="@themeIcon" Color="Color.Inherit" OnClick="ToggleThemeMode" Class="mr-3" />
-            <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Link="https://github.com/eric-king/trackor/" Target="_blank" />
+            <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Inherit" Link="https://github.com/eric-king/thaniwasi/" Target="_blank" />
         </MudAppBar>
         <MudDrawer @bind-Open="drawerOpen" Variant="DrawerVariant.Mini" ClipMode="DrawerClipMode.Always" Elevation="6">
             <NavMenu />

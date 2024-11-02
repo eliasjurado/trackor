@@ -1,4 +1,4 @@
-﻿namespace Trackor.Features.LandingPage;
+﻿namespace Thaniwasi.Client.Features.LandingPage;
 
 public record LandingPageItem
 {

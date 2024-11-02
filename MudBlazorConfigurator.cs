@@ -1,7 +1,7 @@
 ﻿using MudBlazor;
 using MudBlazor.Services;
 
-namespace Trackor;
+namespace Thaniwasi.Client;
 
 public static class MudBlazorConfigurator
 {

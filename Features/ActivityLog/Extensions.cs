@@ -1,8 +1,8 @@
 ﻿using System.Text;
-using Trackor.Features.Categories;
-using Trackor.Features.Projects;
+using Thaniwasi.Client.Features.Categories;
+using Thaniwasi.Client.Features.Projects;
 
-namespace Trackor.Features.ActivityLog;
+namespace Thaniwasi.Client.Features.ActivityLog;
 
 public static class Extensions
 {

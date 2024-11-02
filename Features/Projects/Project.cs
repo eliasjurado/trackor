@@ -1,4 +1,4 @@
-﻿namespace Trackor.Features.Projects;
+﻿namespace Thaniwasi.Client.Features.Projects;
 
 public record Project
 {

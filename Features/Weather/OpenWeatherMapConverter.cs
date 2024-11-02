@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Trackor.Features.Weather;
+namespace Thaniwasi.Client.Features.Weather;
 
 public static class OpenWeatherMapConverter
 {

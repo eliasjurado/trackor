@@ -1,9 +1,9 @@
 ﻿using Fluxor;
-using Trackor.Features.Database;
-using Trackor.Features.Database.Repositories;
-using Trackor.Features.Notifications;
+using Thaniwasi.Client.Features.Database;
+using Thaniwasi.Client.Features.Database.Repositories;
+using Thaniwasi.Client.Features.Notifications;
 
-namespace Trackor.Features.LinkLibrary;
+namespace Thaniwasi.Client.Features.LinkLibrary;
 
 public record LinkLibrarySetLinksAction(LinkLibraryItem[] Links);
 public record LinkLibrarySearchLinksAction(string SearchTerm);

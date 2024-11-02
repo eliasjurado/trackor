@@ -1,4 +1,4 @@
-﻿namespace Trackor.Shared.Code;
+﻿namespace Thaniwasi.Client.Shared.Code;
 
 public record CountryCode(string Name, string Code);
 

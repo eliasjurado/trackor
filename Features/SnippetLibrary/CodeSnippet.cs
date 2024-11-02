@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Trackor.Features.SnippetLibrary;
+namespace Thaniwasi.Client.Features.SnippetLibrary;
 
 public class CodeSnippet
 {

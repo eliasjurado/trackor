@@ -1,4 +1,4 @@
-﻿namespace Trackor.Features.Pomodoro;
+﻿namespace Thaniwasi.Client.Features.Pomodoro;
 
 public class PomodoroTimerService
 {

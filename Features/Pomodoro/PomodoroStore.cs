@@ -1,9 +1,9 @@
 ﻿using Fluxor;
 using System.Timers;
-using Trackor.Features.Database.Repositories;
-using Trackor.Features.Notifications;
+using Thaniwasi.Client.Features.Database.Repositories;
+using Thaniwasi.Client.Features.Notifications;
 
-namespace Trackor.Features.Pomodoro
+namespace Thaniwasi.Client.Features.Pomodoro
 {
     public record PomodoroTickAction();
     public record PomodoroInitializeTimerAction();

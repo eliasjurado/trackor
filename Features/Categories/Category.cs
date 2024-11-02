@@ -1,4 +1,4 @@
-﻿namespace Trackor.Features.Categories;
+﻿namespace Thaniwasi.Client.Features.Categories;
 
 public record Category
 {
