@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Thaniwasi.Client.Features.Projects;
+using Medical.Client.Features.Projects;
 
-namespace Thaniwasi.Client.Features.Database.Repositories;
+namespace Medical.Client.Features.Database.Repositories;
 
 public class ProjectRepository(IDbContextFactory<TrackorContext> db)
 {

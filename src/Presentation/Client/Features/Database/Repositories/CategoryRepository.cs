@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Thaniwasi.Client.Features.Categories;
+using Medical.Client.Features.Categories;
 
-namespace Thaniwasi.Client.Features.Database.Repositories;
+namespace Medical.Client.Features.Database.Repositories;
 
 public class CategoryRepository(IDbContextFactory<TrackorContext> db)
 {

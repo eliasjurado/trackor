@@ -1,9 +1,9 @@
-## Thaniwasi.Client
+## Medical.Client
 
 ### A developer-oriented task tracker written in Blazor WebAssembly
 
-#### What Thaniwasi.Client is:
-Thaniwasi.Client is a side-project I'm using to experiment with a few technologies
+#### What Medical.Client is:
+Medical.Client is a side-project I'm using to experiment with a few technologies
 that interest me:
 - [Blazor WebAssembly](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor)
 - PWA ([Progressive Web Application](https://en.wikipedia.org/wiki/Progressive_web_application))
@@ -16,10 +16,10 @@ that interest me:
 
 
 It is a web application that has no back-end services - everything is accomplished
-locally in the browser. The project is deployed to: [https://app.thaniwasi.dev](https://app.thaniwasi.dev)
+locally in the browser. The project is deployed to: [https://app.medical.dev](https://app.medical.dev)
 
-#### What Thaniwasi.Client is not:
-Thaniwasi.Client is not a product. I don't have the time or resources to maintain
+#### What Medical.Client is not:
+Medical.Client is not a product. I don't have the time or resources to maintain
 a full-blown project with updates and support indefinitely. Feel free to
 use the code here as inspiration for your own project if you'd like.
 

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Thaniwasi.Client.Features.Database
+namespace Medical.Client.Features.Database
 {
     public class TrackorDbMigrator(IDbContextFactory<TrackorContext> dbContextFactory)
     {

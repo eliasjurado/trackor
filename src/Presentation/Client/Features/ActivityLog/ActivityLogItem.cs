@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Features.ActivityLog;
+﻿namespace Medical.Client.Features.ActivityLog;
 
 public class ActivityLogItem
 {

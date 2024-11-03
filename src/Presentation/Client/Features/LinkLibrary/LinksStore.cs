@@ -1,9 +1,9 @@
 ﻿using Fluxor;
-using Thaniwasi.Client.Features.Database;
-using Thaniwasi.Client.Features.Database.Repositories;
-using Thaniwasi.Client.Features.Notifications;
+using Medical.Client.Features.Database;
+using Medical.Client.Features.Database.Repositories;
+using Medical.Client.Features.Notifications;
 
-namespace Thaniwasi.Client.Features.LinkLibrary;
+namespace Medical.Client.Features.LinkLibrary;
 
 public record LinkLibrarySetLinksAction(LinkLibraryItem[] Links);
 public record LinkLibrarySearchLinksAction(string SearchTerm);

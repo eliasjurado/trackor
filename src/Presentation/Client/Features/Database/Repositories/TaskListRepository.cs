@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Thaniwasi.Client.Features.TaskList;
+using Medical.Client.Features.TaskList;
 
-namespace Thaniwasi.Client.Features.Database.Repositories;
+namespace Medical.Client.Features.Database.Repositories;
 
 public class TaskListRepository(IDbContextFactory<TrackorContext> db)
 {

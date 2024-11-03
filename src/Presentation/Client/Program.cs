@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.EntityFrameworkCore;
 using MudBlazor.Services;
-using Thaniwasi.Client;
-using Thaniwasi.Client.Features.Database;
-using Thaniwasi.Client.Features.Pomodoro;
+using Medical.Client;
+using Medical.Client.Features.Database;
+using Medical.Client.Features.Pomodoro;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -21,7 +21,7 @@ builder.Services.AddFluxor(o =>
 #endif
 });
 
-builder.Services.AddBesqlDbContextFactory<TrackorContext>(options => options.UseSqlite("Data Source=thaniwasi.sqlite3"));
+builder.Services.AddBesqlDbContextFactory<TrackorContext>(options => options.UseSqlite("Data Source=medical.sqlite3"));
 builder.Services.AddTrackorDb();
 builder.Services.AddMudServices(config => config.ConfigureWithTrackorDefaults());
 

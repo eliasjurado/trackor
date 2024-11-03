@@ -1,9 +1,9 @@
 ﻿using Fluxor;
 using Microsoft.JSInterop;
-using Thaniwasi.Client.Features.Database.Repositories;
-using Thaniwasi.Client.Features.Theme;
+using Medical.Client.Features.Database.Repositories;
+using Medical.Client.Features.Theme;
 
-namespace Thaniwasi.Client.Features.Database;
+namespace Medical.Client.Features.Database;
 
 public record DatabaseSetUpDbAction();
 public record DatabaseSetDbCacheModuleAction(IJSObjectReference DbCacheModule);

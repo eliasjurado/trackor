@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Features.TaskList;
+﻿namespace Medical.Client.Features.TaskList;
 
 public class TaskListItem
 {

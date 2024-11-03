@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Thaniwasi.Client.Features.ActivityLog;
+using Medical.Client.Features.ActivityLog;
 
-namespace Thaniwasi.Client.Features.Database.Repositories;
+namespace Medical.Client.Features.Database.Repositories;
 
 public class ActivityLogRepository(IDbContextFactory<TrackorContext> db)
 {

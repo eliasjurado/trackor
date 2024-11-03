@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Features.LinkLibrary;
+﻿namespace Medical.Client.Features.LinkLibrary;
 
 public class LinkLibraryItem
 {

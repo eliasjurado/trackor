@@ -1,6 +1,6 @@
-﻿using Thaniwasi.Client.Features.Database.Repositories;
+﻿using Medical.Client.Features.Database.Repositories;
 
-namespace Thaniwasi.Client.Features.Database;
+namespace Medical.Client.Features.Database;
 
 public static class DatabaseServiceExtensions
 {

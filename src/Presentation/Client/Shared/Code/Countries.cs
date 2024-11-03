@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Shared.Code;
+﻿namespace Medical.Client.Shared.Code;
 
 public record CountryCode(string Name, string Code);
 

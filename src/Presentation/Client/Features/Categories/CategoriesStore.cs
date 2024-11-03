@@ -1,9 +1,9 @@
 ﻿using Fluxor;
-using Thaniwasi.Client.Features.ActivityLog;
-using Thaniwasi.Client.Features.Database;
-using Thaniwasi.Client.Features.Database.Repositories;
+using Medical.Client.Features.ActivityLog;
+using Medical.Client.Features.Database;
+using Medical.Client.Features.Database.Repositories;
 
-namespace Thaniwasi.Client.Features.Categories;
+namespace Medical.Client.Features.Categories;
 
 public record CategoriesLoadAction();
 public record CategoriesEditCategoryAction(Category Category, bool CopyOnly);

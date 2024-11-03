@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Thaniwasi.Client.Features.SnippetLibrary;
+using Medical.Client.Features.SnippetLibrary;
 
-namespace Thaniwasi.Client.Features.Database.Repositories;
+namespace Medical.Client.Features.Database.Repositories;
 
 public class CodeSnippetRepository(IDbContextFactory<TrackorContext> db)
 {

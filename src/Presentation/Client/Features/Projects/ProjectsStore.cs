@@ -1,9 +1,9 @@
 ﻿using Fluxor;
-using Thaniwasi.Client.Features.ActivityLog;
-using Thaniwasi.Client.Features.Database;
-using Thaniwasi.Client.Features.Database.Repositories;
+using Medical.Client.Features.ActivityLog;
+using Medical.Client.Features.Database;
+using Medical.Client.Features.Database.Repositories;
 
-namespace Thaniwasi.Client.Features.Projects;
+namespace Medical.Client.Features.Projects;
 
 public record ProjectsLoadAction();
 public record ProjectsEditProjectAction(Project Project, bool CopyOnly);

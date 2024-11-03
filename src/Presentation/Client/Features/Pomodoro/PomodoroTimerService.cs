@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Features.Pomodoro;
+﻿namespace Medical.Client.Features.Pomodoro;
 
 public class PomodoroTimerService
 {

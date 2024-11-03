@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Features.Database;
+﻿namespace Medical.Client.Features.Database;
 
 public record ApplicationSetting
 {

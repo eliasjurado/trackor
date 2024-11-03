@@ -1,7 +1,7 @@
 ﻿using Fluxor;
 using MudBlazor;
 
-namespace Thaniwasi.Client.Features.Notifications;
+namespace Medical.Client.Features.Notifications;
 
 public record SnackbarShowInfoAction(string Content, Action ClickAction = null);
 public record SnackbarShowSuccessAction(string Content, Action ClickAction = null);

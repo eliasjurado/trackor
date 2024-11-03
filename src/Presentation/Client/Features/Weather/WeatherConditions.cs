@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Features.Weather;
+﻿namespace Medical.Client.Features.Weather;
 
 public record WeatherConditions
 {

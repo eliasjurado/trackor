@@ -1,8 +1,8 @@
 ﻿using System.Text;
-using Thaniwasi.Client.Features.Categories;
-using Thaniwasi.Client.Features.Projects;
+using Medical.Client.Features.Categories;
+using Medical.Client.Features.Projects;
 
-namespace Thaniwasi.Client.Features.ActivityLog;
+namespace Medical.Client.Features.ActivityLog;
 
 public static class Extensions
 {

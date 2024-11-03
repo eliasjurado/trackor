@@ -1,7 +1,7 @@
 ﻿using Fluxor;
-using Thaniwasi.Client.Features.Database.Repositories;
+using Medical.Client.Features.Database.Repositories;
 
-namespace Thaniwasi.Client.Features.TaskList;
+namespace Medical.Client.Features.TaskList;
 
 public record TaskListLoadAction();
 public record TaskListSetAction(TaskListItem[] Tasks);

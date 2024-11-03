@@ -1,8 +1,8 @@
 ﻿using Fluxor;
-using Thaniwasi.Client.Features.Database;
-using Thaniwasi.Client.Features.Database.Repositories;
+using Medical.Client.Features.Database;
+using Medical.Client.Features.Database.Repositories;
 
-namespace Thaniwasi.Client.Features.ActivityLog;
+namespace Medical.Client.Features.ActivityLog;
 
 public record ActivityLogLoadItemsAction();
 public record ActivityLogSetLogItemsAction(ActivityLogItem[] Items);

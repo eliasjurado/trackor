@@ -1,7 +1,7 @@
 ﻿using Fluxor;
-using Thaniwasi.Client.Features.Database.Repositories;
+using Medical.Client.Features.Database.Repositories;
 
-namespace Thaniwasi.Client.Features.Theme;
+namespace Medical.Client.Features.Theme;
 
 public record ThemeToggleDarkModeAction();
 public record ThemeSetDarkModeAction(bool IsDarkMode);

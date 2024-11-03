@@ -1,9 +1,9 @@
 ﻿using Fluxor;
 using System.Net.Http.Json;
-using Thaniwasi.Client.Features.Database.Repositories;
-using Thaniwasi.Client.Features.Notifications;
+using Medical.Client.Features.Database.Repositories;
+using Medical.Client.Features.Notifications;
 
-namespace Thaniwasi.Client.Features.Weather;
+namespace Medical.Client.Features.Weather;
 
 public record WeatherLoadConfigAction();
 public record WeatherSaveConfigAction(string PostalCode, string CountryCode, string Units, string ApiKey);

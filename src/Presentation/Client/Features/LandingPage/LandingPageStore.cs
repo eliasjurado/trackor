@@ -1,6 +1,6 @@
 ﻿using Fluxor;
 
-namespace Thaniwasi.Client.Features.LandingPage;
+namespace Medical.Client.Features.LandingPage;
 
 public record LandingPageState
 {
@@ -90,7 +90,7 @@ public class LandingPageFeature : Feature<LandingPageState>
                 new LandingPageItem
                 {
                     HeaderText = "Organize",
-                    BodyText = "Organize your Thaniwasi.Client content",
+                    BodyText = "Organize your Medical.Client content",
                     ImageUrl = "images/organize.jpg",
                     Links = new ItemLink[]
                     {
@@ -123,7 +123,7 @@ public class LandingPageFeature : Feature<LandingPageState>
                 new LandingPageItem
                 {
                     HeaderText = "Database",
-                    BodyText = "Backup or Restore the Thaniwasi.Client database",
+                    BodyText = "Backup or Restore the Medical.Client database",
                     ImageUrl = "images/database.jpg",
                     Links = new ItemLink[]
                     {

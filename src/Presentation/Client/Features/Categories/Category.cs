@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Features.Categories;
+﻿namespace Medical.Client.Features.Categories;
 
 public record Category
 {

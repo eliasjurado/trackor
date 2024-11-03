@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Features.Projects;
+﻿namespace Medical.Client.Features.Projects;
 
 public record Project
 {

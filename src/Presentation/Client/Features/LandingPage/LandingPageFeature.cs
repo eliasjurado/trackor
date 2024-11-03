@@ -1,4 +1,4 @@
-﻿namespace Thaniwasi.Client.Features.LandingPage;
+﻿namespace Medical.Client.Features.LandingPage;
 
 public record LandingPageItem
 {

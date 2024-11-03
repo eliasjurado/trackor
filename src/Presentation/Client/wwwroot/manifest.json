@@ -1,6 +1,6 @@
 {
-  "name": "thaniwasi",
-  "short_name": "thaniwasi",
+  "name": "medical",
+  "short_name": "medical",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

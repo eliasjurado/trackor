@@ -1,9 +1,9 @@
 ﻿using Fluxor;
 using System.Timers;
-using Thaniwasi.Client.Features.Database.Repositories;
-using Thaniwasi.Client.Features.Notifications;
+using Medical.Client.Features.Database.Repositories;
+using Medical.Client.Features.Notifications;
 
-namespace Thaniwasi.Client.Features.Pomodoro
+namespace Medical.Client.Features.Pomodoro
 {
     public record PomodoroTickAction();
     public record PomodoroInitializeTimerAction();

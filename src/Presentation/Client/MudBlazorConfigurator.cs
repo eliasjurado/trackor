@@ -1,7 +1,7 @@
 ﻿using MudBlazor;
 using MudBlazor.Services;
 
-namespace Thaniwasi.Client;
+namespace Medical.Client;
 
 public static class MudBlazorConfigurator
 {

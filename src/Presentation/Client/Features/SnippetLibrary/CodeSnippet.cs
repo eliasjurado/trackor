@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Thaniwasi.Client.Features.SnippetLibrary;
+namespace Medical.Client.Features.SnippetLibrary;
 
 public class CodeSnippet
 {
