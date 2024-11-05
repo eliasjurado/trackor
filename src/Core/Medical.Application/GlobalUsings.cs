@@ -1,0 +1,15 @@
+﻿global using Medical.Shared.Common;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.Extensions.Logging;
+global using Medical.Domain.Entities;
+global using Medical.Application.Repositories.Commands.Base;
+global using Medical.Application.Repositories.Queries.Base;
+global using Medical.Application.Repositories.Commands;
+global using Medical.Application.Repositories.Queries;
+global using Medical.Application.UnitOfWork;
+global using AutoMapper;
+global using Medical.Shared.Response.Concrete;
+global using Medical.Shared.Response.Abstract;
+global using Medical.Shared.Constant;
+global using Medical.Shared;

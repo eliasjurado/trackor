@@ -7,8 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Medical.Application\Medical.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Medical.Identity\Medical.Identity.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Medical.Infrastructure\Medical.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Medical.Persistence\Medical.Persistence.csproj" />
+    <ProjectReference Include="..\Client\Medical.Client.csproj" />
+    <ProjectReference Include="..\Shared\Medical.Shared.csproj" />
   </ItemGroup>
 
 </Project>
